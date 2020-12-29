@@ -1,0 +1,104 @@
+.user-content {
+  max-width: 588px; }
+
+.user-content__new-post {
+  margin-bottom: 16px; }
+
+.user-content__post {
+  margin-bottom: 16px; }
+
+
+.post {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px;
+  padding-bottom: 8px; }
+  .post .user {
+    align-items: start; }
+  .post .user__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0050b3; }
+  .post .user__photo {
+    width: 48px;
+    margin-right: 12px; }
+  .post .user__info {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column; }
+  .post .user__set {
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .post .user__span {
+    color: #8c8c8c;
+    display: flex;
+    align-items: center; }
+    .post .user__span::after {
+      display: inline-flex;
+      content: "";
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #8c8c8c;
+      margin-left: 9px; }
+  .post .user__icon {
+    fill: #8c8c8c;
+    align-self: flex-end;
+    cursor: pointer; }
+
+.post__user {
+  margin-bottom: 16px; }
+
+.post__content {
+  margin-bottom: 16px; }
+
+.post__text {
+  color: #595959;
+  margin-bottom: 16px; }
+
+.post__link {
+  color: #096dd9; }
+
+.post__likes {
+  max-width: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: space-between; }
+
+.post__likes-counter {
+  color: #8c8c8c; }
+
+.post__likes-icon {
+  fill: #1890ff;
+  margin: auto; }
+
+.post__likes-btn {
+  width: 30px;
+  height: 16px;
+  background-color: transparent;
+  cursor: pointer; }
+
+.post-footer__btn {
+  background-color: transparent;
+  cursor: pointer; }
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+  padding: 10px 60px;
+  padding-bottom: 0; }
+
+.post-footer__item {
+  display: flex; }
+
+.post-footer__icon {
+  fill: #595959;
+  margin-right: 10px; }
+
+.post-footer__text {
+  color: #595959; }

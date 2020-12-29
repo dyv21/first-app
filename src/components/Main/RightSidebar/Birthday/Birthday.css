@@ -1,0 +1,18 @@
+.birthday {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center; }
+
+.birthday__link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0050b3; }
+
+.birthday__span {
+  color: #595959; }
+
+.birthday__icon {
+  margin-right: 8px; }

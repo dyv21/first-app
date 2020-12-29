@@ -1,0 +1,12 @@
+.left-sidebar {
+  width: 192px; }
+
+.left-sidebar .user__name {
+  color: #262626;
+  font-weight: normal; }
+
+.left-sidebar__user {
+  margin-bottom: 13px; }
+
+.left-sidebar__shortcuts {
+  margin-bottom: 13px; }

@@ -1,0 +1,26 @@
+.shortcuts__title {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600; }
+
+.shortcuts__item {
+  max-width: 192px;
+  padding: 5px 8px; }
+
+.shortcuts__item:hover {
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.shortcuts__link {
+  display: flex;
+  align-items: center;
+  color: #595959; }
+
+.shortcuts__link:hover {
+  color: #262626;
+  font-weight: 600; }
+
+.shortcuts__icon {
+  margin-right: 8px;
+  fill: #1890ff; }

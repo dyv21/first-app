@@ -7,19 +7,22 @@
   margin-right: 12px;
   display: flex;
   align-items: center; }
-  .user-list__item:last-child {
-    left: 17px; }
-  .user-list__item:last-child::before {
-    content: "";
-    width: 1px;
-    height: 16px;
-    background-color: #003a8c;
-    margin-right: 11px; }
+
+.user-list__item:last-child {
+  left: 17px; }
+  
+.user-list__item:last-child::before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background-color: #003a8c;
+  margin-right: 11px; }
 
 .user-list__item-icon {
   fill: #002766; }
-  .user-list__item-icon:hover {
-    fill: #ffffff; }
+
+.user-list__item-icon:hover {
+  fill: #ffffff; }
 
 .user-list__item--active .user-list__item-icon {
   fill: #ffffff; }

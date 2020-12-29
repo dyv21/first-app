@@ -1,0 +1,21 @@
+.user-nav__item {
+  max-width: 192px;
+  padding: 5px 8px; }
+
+.user-nav__item:hover {
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.user-nav__link {
+  display: flex;
+  align-items: center;
+  color: #595959; }
+
+.user-nav__link:hover {
+  color: #262626;
+  font-weight: 600; }
+
+.user-nav__icon {
+  margin-right: 8px;
+  fill: #1890ff; }

@@ -1,0 +1,27 @@
+
+.explore__title {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600; }
+
+.explore__item {
+  max-width: 192px;
+  padding: 5px 8px; }
+
+.explore__item:hover {
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.explore__link {
+  display: flex;
+  align-items: center;
+  color: #595959; }
+
+.explore__link:hover {
+  color: #262626;
+  font-weight: 600; }
+
+.explore__icon {
+  margin-right: 8px;
+  fill: #1890ff; }
