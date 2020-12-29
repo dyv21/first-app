@@ -1,0 +1,23 @@
+.site-list {
+  display: flex;
+  margin: 0 12px; }
+
+
+.site-list__item {
+  margin-right: 12px;
+  display: flex;
+  align-items: center; }
+  .site-list__item::before, .site-list__item:last-child::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: #003a8c;
+    margin-right: 12px; }
+  .site-list__item:last-child::after {
+    margin-right: 0;
+    margin-left: 12px; }
+
+.site-list__link {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 22px; }

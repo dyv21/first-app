@@ -5,11 +5,11 @@ import Main from './components/Main/Main';
 
 const App = () => {
   return (
-    <div> 
+    <div>
       <Header />
       <Main />
     </div>
-  )
+  );
 };
 
 export default App;

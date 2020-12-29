@@ -41,3 +41,7 @@ select,
 button {
   font: inherit;
   border: none; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }

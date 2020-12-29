@@ -283,7 +283,7 @@
   margin-bottom: 16px; }
 
 .stories__add-btn {
-  width: 48px;
+  width: 48px;   
   height: 48px;
   /* background: url("/img/add-stories.png") no-repeat; */
   cursor: pointer;

@@ -1,0 +1,11 @@
+.user {
+  display: flex;
+  align-items: center; }
+
+.user__photo {
+  margin-right: 8px; }
+
+.user__name {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 22px; }
