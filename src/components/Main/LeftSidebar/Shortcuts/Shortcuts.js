@@ -10,7 +10,7 @@ const Shortcuts = () => {
         <li className="shortcuts__item">
           <a href="#b" className="shortcuts__link">
             <svg className="shortcuts__icon" width="22" height="22">
-              <use href={`${sprite}#icon-trophy`}></use>
+              <use xlinkHref={`${sprite}#icon-trophy`}></use>
             </svg>
             Product Design
           </a>
@@ -18,7 +18,7 @@ const Shortcuts = () => {
         <li className="shortcuts__item">
           <a href="#b" className="shortcuts__link">
             <svg className="shortcuts__icon" width="22" height="22">
-              <use href={`${sprite}#icon-trophy`}></use>
+              <use xlinkHref={`${sprite}#icon-trophy`}></use>
             </svg>
             UX & UI
           </a>
@@ -26,7 +26,7 @@ const Shortcuts = () => {
         <li className="shortcuts__item">
           <a href="#b" className="shortcuts__link">
             <svg className="shortcuts__icon" width="22" height="22">
-              <use href={`${sprite}#icon-trophy`}></use>
+              <use xlinkHref={`${sprite}#icon-trophy`}></use>
             </svg>
             Figma
           </a>
@@ -34,7 +34,7 @@ const Shortcuts = () => {
         <li className="shortcuts__item">
           <a href="#b" className="shortcuts__link">
             <svg className="shortcuts__icon" width="22" height="22">
-              <use href={`${sprite}#icon-trophy`}></use>
+              <use xlinkHref={`${sprite}#icon-trophy`}></use>
             </svg>
             Ant Design
           </a>

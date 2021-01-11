@@ -7,7 +7,7 @@ import UserList from './UserList/UserList';
 const Nav = () => {
   return (
     <nav className="header__main-nav main-nav">
-      <User />
+      <User firstName="Denis"/>
       <SiteList />
       <UserList />
     </nav>

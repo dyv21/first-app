@@ -15,19 +15,19 @@ const NewPost = () => {
       <div className="new-post__buttons">
         <button className="new-post__btn" type="button">
           <svg className="new-post__icon" width="22" height="22">
-            <use href={`${sprite}#icon-photo`}></use>
+            <use xlinkHref={`${sprite}#icon-photo`}></use>
           </svg>
           Photo/Video
         </button>
         <button className="new-post__btn" type="button">
           <svg className="new-post__icon" width="22" height="22">
-            <use href={`${sprite}#icon-friend`}></use>
+            <use xlinkHref={`${sprite}#icon-friend`}></use>
           </svg>
           Tag friends
         </button>
         <button className="new-post__btn" type="button">
           <svg className="new-post__icon" width="22" height="22">
-            <use href={`${sprite}#icon-smile`}></use>
+            <use xlinkHref={`${sprite}#icon-smile`}></use>
           </svg>
           Feeling/Activ...
         </button>

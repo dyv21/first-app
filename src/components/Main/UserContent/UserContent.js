@@ -25,7 +25,7 @@ const UserContent = () => {
             <div className="user__set">
               <span className="user__span">6 hrs</span>
               <svg className="user__icon" width="20" height="20">
-                <use href={`${sprite}#icon-setting`}></use>
+                <use xlinkHref={`${sprite}#icon-setting`}></use>
               </svg>
             </div>
           </div>
@@ -42,7 +42,7 @@ const UserContent = () => {
         </div>
         <div className="post__likes">
           <svg className="post__likes-icon" width="16" height="16">
-            <use href={`${sprite}#icon-like`}></use>
+            <use xlinkHref={`${sprite}#icon-like`}></use>
           </svg>
           <span className="post__likes-counter">43</span>
         </div>
@@ -50,7 +50,7 @@ const UserContent = () => {
           <div className="post-footer__item">
             <button type="button" className="post-footer__btn">
               <svg className="post-footer__icon" width="19" height="19">
-                <use href={`${sprite}#icon-like`}></use>
+                <use xlinkHref={`${sprite}#icon-like`}></use>
               </svg>
             </button>
             <span className="post-footer__text">Like</span>
@@ -58,7 +58,7 @@ const UserContent = () => {
           <div className="post-footer__item">
             <button type="button" className="post-footer__btn">
               <svg className="post-footer__icon" width="19" height="19">
-                <use href={`${sprite}#icon-message`}></use>
+                <use xlinkHref={`${sprite}#icon-message`}></use>
               </svg>
             </button>
             <span className="post-footer__text">Comment</span>
@@ -66,7 +66,7 @@ const UserContent = () => {
           <div className="post-footer__item">
             <button type="button" className="post-footer__btn">
               <svg className="post-footer__icon" width="19" height="19">
-                <use href={`${sprite}#icon-share`}></use>
+                <use xlinkHref={`${sprite}#icon-share`}></use>
               </svg>
             </button>
             <span className="post-footer__text">Share</span>

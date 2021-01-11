@@ -1,7 +1,7 @@
 import React from 'react';
 import './User.css';
 
-const User = () => {
+const User = (props) => {
   return (
     <div className="main-nav__user user">
       <img
@@ -12,7 +12,7 @@ const User = () => {
         height="32"
       />
       <a href="#d" className="user__name">
-        Denis
+        {props.firstName} {props.SecondName}
       </a>
     </div>
   );

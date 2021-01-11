@@ -8,7 +8,7 @@ import Explore from './Explore/Explore';
 const LeftSidebar = () => {
   return (
     <section className="page-main__left-sidebar left-sidebar">
-      <User />
+      <User firstName="Denis" SecondName="Vladimirov" />
       <UserNav />
       <Shortcuts />
       <Explore />

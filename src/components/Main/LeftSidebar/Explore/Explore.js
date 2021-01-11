@@ -10,7 +10,7 @@ const Explore = () => {
         <li className="explore__item">
           <a href="#b" className="explore__link">
             <svg className="explore__icon" width="22" height="22">
-              <use href={`${sprite}#icon-flag`}></use>
+              <use xlinkHref={`${sprite}#icon-flag`}></use>
             </svg>
             Pages
           </a>
@@ -18,7 +18,7 @@ const Explore = () => {
         <li className="explore__item">
           <a href="#b" className="explore__link">
             <svg className="explore__icon" width="22" height="22">
-              <use href={`${sprite}#icon-headphones`}></use>
+              <use xlinkHref={`${sprite}#icon-headphones`}></use>
             </svg>
             Group
           </a>
@@ -26,7 +26,7 @@ const Explore = () => {
         <li className="explore__item">
           <a href="#b" className="explore__link">
             <svg className="explore__icon" width="22" height="22">
-              <use href={`${sprite}#icon-home`}></use>
+              <use xlinkHref={`${sprite}#icon-home`}></use>
             </svg>
             Events
           </a>
@@ -34,7 +34,7 @@ const Explore = () => {
         <li className="explore__item">
           <a href="#b" className="explore__link">
             <svg className="explore__icon" width="22" height="22">
-              <use href={`${sprite}#icon-rocket`}></use>
+              <use xlinkHref={`${sprite}#icon-rocket`}></use>
             </svg>
             Games
           </a>
