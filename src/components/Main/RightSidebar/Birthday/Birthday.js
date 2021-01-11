@@ -8,7 +8,7 @@ const Birthday = () => {
       <svg className="birthday__icon" width="19" height="19">
         <use xlinkHref={`${sprite}#icon-gift`}></use>
       </svg>
-      <a href="#" className="birthday__link">
+      <a href="#n" className="birthday__link">
         John Doe
       </a>
       <span className="birthday__span">’s birthday is today</span>
